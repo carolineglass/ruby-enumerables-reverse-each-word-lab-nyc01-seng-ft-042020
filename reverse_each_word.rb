@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   split_sentence.each do |word| 
     word_reverse.push(word.reverse)
   end 
-  word_reverse
+  word_reverse.join(" ")
 end 
